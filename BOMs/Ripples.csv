@@ -1,0 +1,40 @@
+"Ripples, v4.0",,,,,,,
+Index,Qty,Description,Specs,Value,Package,Ref. Mouser,References
+SMT parts,,,,,,,
+"R3, R4, R10, R11",4,"Resistor, 1%",,510,0603,667-ERJ3EKF5100V,
+"R14, R17, R19, R21, R28, R32, R41, R46",8,"Resistor, 1%",,1.0k,0603,667-ERJ3EKF1001V,
+R39,1,"Resistor, 1%",,6.8k,0603,667-ERJ-3EKF6801V,
+"R36, R47",2,"Resistor, 1%",,15k,0603,667-ERJ3EKF1502V,
+"R16, R25",2,"Resistor, 1%",,22k,0603,667-ERJ3EKF2202V,
+R23,1,"Resistor, 1%",,27k,0603,667-ERJ3EKF2702V,
+"R1, R2, R5, R6, R8, R12, R13, R43",8,"Resistor, 1%",,33k,0603,667-ERJ3EKF3302V,
+"R27, R30, R44",3,"Resistor, 1%",,39k,0603,667-ERJ3EKF3902V,
+"R22, R26, R34",3,"Resistor, 1%",,47k,0603,667-ERJ-P03F4702V,
+R24,1,"Resistor, 1%",,62k,0603,667-ERJ-P03F6202V,
+"R9, R20, R29, R31, R35, R37, R38, R40, R42, R45",10,"Resistor, 1%",,100k,0603,667-ERJ3EKF1003V,
+R15,1,"Resistor, 1%",,300k,0603,667-ERJ3EKF3003V,
+"C22, C23, C26, C27",4,"Capacitor, ceramic",>= 16V,47p,0603,81-GRM185C1H470GA01J,Murata GRM1885C1H470GA01J
+"C1, C4, C6, C9",4,"Capacitor, ceramic",">= 16V, Tol < 2%",220p,0603,81-GRM185C1H221GA01D,Murata GRM1885C1H221GA01D
+"C2, C3, C7, C8, C17, C18, C24",7,"Capacitor, ceramic",>= 16V,560p,0603,81-GRM185C1E561JA01D,Murata GRM1885C1E561JA01D
+"C5, C10, C13, C15, C19, C20, C21, C28",8,"Capacitor, ceramic",>= 16V,100n,0603,81-GRM188R71E104JA1J,Murata GRM188R71E104JA01J
+"C11, C25",2,"Capacitor, ceramic",>= 16V,220n,603,81-GRM188R71C224KA1J,Murata GRM188R71C224KA01J
+C16,1,"Capacitor, electrolytic NP",>= 16V,4.7u,Panasonic B,647-UWP1C4R7MCL,Nichicon UWP1C4R7MCL1GB
+"C12, C14",2,"Capacitor, electrolytic",>= 25V,47u,Panasonic D,667-EEE-FK1V470P,EEEFK1V470P
+"P1, P2",2,Resettable fuse,>= 15V,>0.1A,1206,576-1206L035/16YR,Littelfuse 1206L035/16YR
+"D1, D2",DNP,,,,,,
+"D3, D4",2,1N5819HW diode,,,SOD123,621-1N5819HW-F,Diodes Inc 1N5819HW-7-F
+"D5, D6",2,1N4148 diode,,,SOD323,512-1N4148WS,Fairchild 1N4148WS
+"IC1, IC3",2,TL072 dual op-amp,,,SOIC8,595-TL072CD,TI TL072CD
+IC2,1,V2164 quad VCA,,,SOIC16,,CoolAudio V2164M
+IC4,1,LM13700 dual OTA,,,SOIC16,926-LM13700M/NOPB,National LM13700M/NOPB
+"IC5, IC6",2,TL074 quad op-amp,,,SOIC14,595-TL074CD,Texas Instruments TL074CD
+IC7,1,LM4040 Shunt Vref,"A, B or C grade",5.0V,SOT23,595-LM4040C50IDBZR,Texas Instruments LM4040C50IDBZ
+"Q1, Q2",2,PNP transistor MMBT3906,,,SOT23-BEC,771-MMBT3906T/R,"NXP MMBT3906,215"
+"PTH parts, top side",,,,,,,
+"R7, R18, R33",3,"10k linear pot, 15mm shaft",,,,,https://www.thonk.co.uk/shop/alpha-9mm-pots/
+"J1, J2, J3, J4, J5, J6, J7, J8, J9",9,Vertical jack connector,,,,,PJ-301-M-12
+R100,1,"Trimmer resistor, 25 turns, horizontal adjust.",,5k,,81-PV36X502C01B00,Murata PV36X502C01B00
+"PTH parts, bottom side",,,,,,,
+JP1,1,"2x5 male header, 2.54mm pitch",,,,649-67996-410HLF,
+PCB specifications,,,,,,,
+PCB,,39.4 x 106.8 ; 2 layers,,,,,
