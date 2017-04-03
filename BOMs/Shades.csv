@@ -1,26 +1,26 @@
-"Shades, v3.1",,,,,,,,
-Index,Qty,Description,Specs,Value,Package,Ref. Mouser,References,
-SMT parts,,,,,,,,
-"R4, R11, R24, R28, R29, R30",6,"Resistor, 1%",,1.0k,0603,667-ERJ3-EKF1001V,,
-R27,1,"Resistor, 1%",,10k,0603,667-ERJ3-EKF1002V,,
-"R1, R2, R5, R6, R7, R8, R9, R12, R13, R14, R15, R16, R17, R18, R19, R20, R22, R23, R25, R26",20,"Resistor, 0.1% thin film",,100k,0603,667-ERA-3AEB104V,,
-"C5, C8, C14",3,"Capacitor, ceramic","<= 2%, >= 25V",22p,0603,81-GRM1885C1H220GA1J,Murata GRM1885C1H220GA01J,
-"C3, C4, C6, C7, C9, C10, C11, C12, C13, C15",10,"Capacitor, ceramic",>= 16V,100n,0603,81-GRM188R71E104JA1J,Murata GRM188R71E104JA01J,
-"C1, C2",2,"Capacitor, electrolytic",>= 25V,10u,Panasonic B (3mm dia),667-EEE-1EA100WR,EEE-1EA100WR,
-"D1, D2",2,1N5819HW diode,,,SOD123,621-1N5819HW-F,Diodes Inc 1N5819HW-7-F,
-IC6,1,LM4040 Shunt Vref,"A, B or C grade",10V,SOT23,595-LM4040C10IDBZR,Texas Instruments LM4040C10IDBZ,
-"IC1, IC2, IC3, IC4",4,LME49720 dual op-amp,,,SOIC8,926-LME49720MA/NOPB,TI LME49720MA,
-IC5,1,TL072 dual op-amp,,,SOIC8,595-TL072CD,TI TL072CD,
-"IC7, IC8, IC9",3,LM321 single op-amp,,,SOT23-5,926-LM321MFX/NOPB,TI LM321MFX/NOPB,
-"PTH parts, top side",,,,,,,,
-"J1, J2, J3, J4, J5, J6",6,Vertical jack connector,,,,,PJ-301-M-12,
-"LED1, LED2, LED3",3,"LED, Red/Green, 2 terminals",,,2 terminals,604-WP937EGW,Kingbright WP937EGW,
-"- LED1, LED2, LED3",3,LED holder,10mm,,,,LED3-10 Multicomp; Farnell P/N 9555277,
-"R3, R10, R21",3,"10k linear pot, 15mm shaft",,,,,https://www.thonk.co.uk/shop/alpha-9mm-pots/,
-"SW1, SW2, SW3",3,"Toggle switch, SPDT",,,,633-CS12ANW03,,
-"PTH parts, bottom side",,,,,,,,
-"JP2, JP3, JP4",3,"1x3 male header, 2.54mm pitch",,,,649-77311-118-03LF,,
-JP1,1,"2x5 male header, 2.54mm pitch",,,,649-67996-410HLF,,
-,3,2.54 Shunt jumper,,,,517-9691020000DA,,
-PCB specifications,,,,,,,,
-PCB,,29.2 x 106.7 ; 2 layers,,,,,,
+Shades, v3.1;;;;;;;;
+Index;Qty;Description;Specs;Value;Package;Ref. Mouser;References;
+SMT parts;;;;;;;;
+R4, R11, R24, R28, R29, R30;6;Resistor, 1%;;1.0k;0603;667-ERJ-3EKF1001V;;
+R27;1;Resistor, 1%;;10k;0603;667-ERJ-3EKF1002V;;
+R1, R2, R5, R6, R7, R8, R9, R12, R13, R14, R15, R16, R17, R18, R19, R20, R22, R23, R25, R26;20;Resistor, 0.1% thin film;;100k;0603;667-ERA-3AEB104V;;
+C5, C8, C14;3;Capacitor, ceramic;<= 2%, >= 25V;22p;0603;81-GRM1885C1H220GA1J;Murata GRM1885C1H220GA01J;
+C3, C4, C6, C7, C9, C10, C11, C12, C13, C15;10;Capacitor, ceramic;>= 16V;100n;0603;81-GRM188R71E104JA1J;Murata GRM188R71E104JA01J;
+C1, C2;2;Capacitor, electrolytic;>= 25V;10u;Panasonic B (3mm dia);667-EEE-1EA100WR;EEE-1EA100WR;
+D1, D2;2;1N5819HW diode;;;SOD123;621-1N5819HW-F;Diodes Inc 1N5819HW-7-F;
+IC6;1;LM4040 Shunt Vref;A, B or C grade;10V;SOT23;595-LM4040C10IDBZR;Texas Instruments LM4040C10IDBZ;
+IC1, IC2, IC3, IC4;4;LME49720 dual op-amp;;;SOIC8;926-LME49720MA/NOPB;TI LME49720MA;
+IC5;1;TL072 dual op-amp;;;SOIC8;595-TL072CD;TI TL072CD;
+IC7, IC8, IC9;3;LM321 single op-amp;;;SOT23-5;926-LM321MFX/NOPB;TI LM321MFX/NOPB;
+PTH parts, top side;;;;;;;;
+J1, J2, J3, J4, J5, J6;6;Vertical jack connector;;;;;PJ-301-M-12;
+LED1, LED2, LED3;3;LED, Red/Green, 2 terminals;;;2 terminals;604-WP937EGW;Kingbright WP937EGW;
+- LED1, LED2, LED3;3;LED holder;10mm;;;;"LED3-10 Multicomp; Farnell P/N 9555277";
+R3, R10, R21;3;10k linear pot, 15mm shaft;;;;;https://www.thonk.co.uk/shop/alpha-9mm-pots/;
+SW1, SW2, SW3;3;Toggle switch, SPDT;;;;633-CS12ANW03;;
+PTH parts, bottom side;;;;;;;;
+JP2, JP3, JP4;3;1x3 male header, 2.54mm pitch;;;;649-77311-118-03LF;;
+JP1;1;2x5 male header, 2.54mm pitch;;;;649-67996-410HLF;;
+;3;2.54 Shunt jumper;;;;517-9691020000DA;;
+PCB specifications;;;;;;;;
+PCB;;"29.2 x 106.7 ; 2 layers";;;;;;

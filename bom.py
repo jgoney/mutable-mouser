@@ -29,6 +29,7 @@ def scale_mi_bom(bom, qty):
 
     return bom
 
+
 mouser = get_mouser_reader("BOMs/mouser_order.csv")
 
 branches = get_mi_reader("BOMs/Branches.csv")
@@ -47,7 +48,8 @@ tides_set = get_set_from_mi_bom(tides)
 
 # common_parts = {part: 0 for part in (tides_set)}
 # common_parts = {part: 0 for part in (tides_set | kinks_set)}
-common_parts = {part: 0 for part in (shades_set) & (tides_set | kinks_set)}
+# common_parts = {part: 0 for part in (shades_set) & (tides_set | kinks_set)}
+common_parts = {part: 0 for part in shades_set}
 # common_parts = {part: 0 for part in (branches_set | ripples_set | shades_set | tides_set | kinks_set)}
 
 t = PrettyTable(['Line #', 'Part #', 'Description', 'Ordered qty', 'Needed qty', 'Difference',
@@ -71,6 +73,6 @@ for part_no in common_parts:
                  common_parts[part_no], int(mouser[part_no]['Order Qty.']) - common_parts[part_no],
                  abs(int(mouser[part_no]['Order Qty.']) - common_parts[part_no]), mouser[part_no]['Mouser No']))
     except KeyError:
-        print "%s not found in your order" % (part_no,)
+        print("%s not found in your order" % (part_no,))
 
-print t
+print(t)
