@@ -1,0 +1,23 @@
+Links, v4.0;;;;;;;
+Index;Qty;Description;Specs;Value;Package;Ref. Mouser;References
+SMT parts;;;;;;;
+R2, R4, R5, R12, R13, R21;6;Resistor, 1%;;51;0603;667-ERJ-3EKF51R0V;
+R3, R11, R19;3;Resistor, 1%;;1.0k;0603;667-ERJ3-EKF1001V;
+R15;1;Resistor, 1%;;33k;0603;667-ERJ-3EKF3302V;
+R6, R7, R8, R9, R10, R14, R16, R17, R18, R20;10;Resistor, 0.1%, Thin film;;100k;0603;667-ERA-3AEB104V;
+R1;1;Resistor, 1%;;10M;0603;603-RC0603FR-0710ML;
+C6, C9;2;Capacitor, ceramic;>= 16V, <= 5%, C0G;10p;0603;81-GRM185C1H100JA01J;
+C3, C4, C5, C7, C8, C10;6;Capacitor, ceramic;>= 16V;100n;0603;81-GRM188R71E104JA1J;
+C1, C2;2;Capacitor, electrolytic;>= 25V;4.7u;Panasonic A (3mm dia);647-UWX1E4R7MCL2;Nichicon UWX1E4R7MCL2GB
+D1, D2;2;1N5819HW diode;;;SOD123;621-1N5819HW-F;Diodes Inc 1N5819HW-7-F
+IC2, IC4;2;TL072 dual op-amp;;;TSSOP8;595-TL072CPWR;Texas Instruments TL072CPW
+IC1;1;OPA4171 quad op-amp;;;TSSOP14;595-OPA4171AIPW;Texas Instruments OPA4171AIPW
+IC3, IC5;2;LM321 single op-amp;;;SOT23-5;926-LM321MFX/NOPB;Texas Instruments LM321MFX/NOPB
+PTH parts, top side;;;;;;;
+J1, J2, J3, J4, J5, J6, J7, J8, J9, J10, J11, J12;12;Vertical jack connector;;;;;PJ-301-M-12
+LED1, LED2, LED3;3;LED, Red/Green, 2 terminals;;;2 terminals;604-WP937EGW;Kingbright WP937EGW
+- LED1, LED2, LED3;3;LED holder, 3mm LED, 10mm height;;;;;"LED3-10 Multicomp; Farnell P/N 9555277"
+PTH parts, bottom side;;;;;;;
+JP1;1;2x5 male header, 2.54mm pitch;;;;649-67996-410HLF;
+PCB specifications;;;;;;;
+PCB;;"19.0 x 108.4 ; 2 layers";;;;;

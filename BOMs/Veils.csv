@@ -1,0 +1,37 @@
+Veils, v4.0a;;;;;;;;
+Index;Qty;Description;Specs;Value;Package;Ref. Mouser;S. MI;References
+SMT parts;;;;;;;;
+R2, R8, R13, R18, R21, R22, R24, R35, R41, R47, R53, R58, R61, R62, R65, R77;16;Resistor, 1%;;510;0402;667-ERJ-2RKF5100X;;
+R6, R38, R45, R78;4;Resistor, 1%;;1.2k;0402;667-ERJ-2RKF1201X;;
+R74;1;Resistor, 1%;;3.6k;0402;667-ERJ-2RKF3601X;;
+R5, R9, R10, R30, R31, R32, R34, R44, R48, R49, R50, R71, R73, R75;14;Resistor, 1%;;5.1k;0402;667-ERJ-2RKF5101X;;
+R4, R36, R43;3;Resistor, 1%;;5.6k;0402;667-ERJ-2RKF5601X;;
+R16, R39, R56, R64, R72;5;Resistor, 1%;;24k;0402;667-ERJ-2RKF2402X;;
+R7, R11, R14, R25, R33, R37, R46, R51, R54, R66, R76, R79;12;Resistor, 1%;;100k;0402;667-ERJ-2RKF1003X;;
+R17, R23, R57, R63;4;Resistor, 1%;;49.9k;0402;667-ERJ-2RKF4992X;;
+R12, R15, R26, R27, R52, R55, R67, R68;8;Resistor, 1%;;1.0M;0402;667-ERJ-2RKF1004X;;
+R19, R20, R59, R60;4;Resistor, 5%;;20M;0402;603-RC0402JR-0720ML;;
+C5, C18, C25, C38, C41, C42, C43, C44;8;Capacitor, ceramic, C0G;>= 25V, <=5%;47p;0402;81-GCM1555C1H470JA6D;;
+C6, C17, C26, C37;4;Capacitor, ceramic, C0G;>= 25V, <=5%;100p;0402;81-GRM1555C1H101JA1D;;Murata GRM1555C1H101JA01D
+C9, C10, C13, C14, C29, C30, C33, C34;8;Capacitor, ceramic, C0G;>= 25V, <=5%;560p;0402;81-GRM1555C1H561JA1D;;Murata GRM1555C1H561JA01D
+C3, C4, C7, C8, C11, C15, C19, C20, C23, C24, C27, C28, C31, C35, C39, C40;16;Capacitor, ceramic;>= 25V;100n;0402;81-GRM155R61E104KA7D;;Murata GRM155R61E104KA87D
+C12, C16, C32, C36;4;Capacitor, ceramic;>= 25V;470n;0402;810-C1005X5R1E474K;;TDK C1005X5R1E474K050B
+C1, C2, C21, C22;4;Capacitor, electrolytic;>= 25V;22u;Panasonic B;667-EEE-FT1E220AR;;EEE-FT1E220AR
+D1, D2;2;1N5819HW diode;;;SOD123;621-1N5819HW-F;;Diodes Inc 1N5819HW-7-F
+P1;1;Resettable fuse;>= 15V;>0.1A;1206;576-1206L035/16YR;;Littelfuse 1206L035/16YR
+IC3, IC7;2;V2164 quad VCA;;;SOIC16;;;
+IC1, IC4, IC5, IC10;4;OPA1654 Quad op-amp;;;TSSOP14;595-OPA1654AIPW;;Texas Instruments OPA1654AIPWR
+IC2, IC6;2;LM358 Dual op-amp;;;TSSOP8;595-LM358APWR;;Texas Instruments LM358APWR
+IC8;1;LM4040 Shunt Vref;0,50 %;2.5V;SOT23;595-LM4040C25IDBZR;;Texas Instruments LM4040C25IDBZR
+IC9;1;LM4040 Shunt Vref;0,50 %;10V;SOT23;595-LM4040C10IDBZR;;Texas Instruments LM4040C10IDBZR
+L1, L2;2;EMI Filter Bead;>= 1k ohm@100MHz 300mA;;0603;710-742792664;;Wurth Electronics 742792664
+PTH parts, top side;;;;;;;;
+J1, J2, J3, J4, J5, J6, J7, J8, J9, J10, J11, J12;12;Vertical jack connector;;;;;;PJ-301-M-12
+LED1, LED2, LED3, LED4;4;LED 5mm, 2-leaded, R/G;;;;604-WP7113SRSGW;;Kingbright WP7113SRSGW
+- LED1, LED2, LED3, LED4;4;LED holder, 6mm;;;;534-8906;;Keystone 8906
+R1, R28, R40, R69;4;10k linear pot, 25mm shaft with marker;;;;;;https://www.thonk.co.uk/shop/ttpots/
+R3, R29, R42, R70;4;10k linear pot, 15mm shaft;;;;;;https://www.thonk.co.uk/shop/alpha-9mm-pots/
+PTH parts, bottom side;;;;;;;;
+"JP5 (""Red stripe"")";1;2x5 male header, 2.54mm pitch;;;;649-67996-410HLF;;
+PCB;;106.7 x 59.05;;;;;;
+;;;;;;;;
