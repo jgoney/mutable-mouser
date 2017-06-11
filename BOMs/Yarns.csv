@@ -1,0 +1,47 @@
+Yarns v0.3;;;;;;;
+Index;Qty;Description;Specs;Value;Package;Ref. Mouser;References
+SMT parts;;;;;;;
+R39, R40;2;Resistor, 1%;;51;0603;652-CR0603FX-51R0ELF;
+R2, R3, R4, R5, R6, R7, R8, R10, R11, R12, R13, R14, R15, R16, R33, R36, R41, R42;18;Resistor, 1%;;100;0603;652-CR0603FX-1000ELF;
+R1, R9, R24, R25, R30, R31, R32, R34, R38, R43;10;Resistor, 1%;;1.0k;0603;652-CR0603FX-1001ELF;
+R17;1;Resistor, 1%;;10k;0603;652-CR0603-FX-1002GLF;
+R18, R19, R20, R21, R22, R23;6;Resistor, 1%;;47k;0603;652-CR0603FX-4702ELF;
+R26, R27, R28, R29;4;Resistor, 1%;;240k;0603;652-CR0603FX-2403ELF;
+C7, C10;2;Capacitor, ceramic;;18p;0603;81-GRM185C1H180JA01J;
+C14, C16, C21, C22;4;Capacitor, ceramic;>= 50V, <= 2%, C0G;18p;0603;81-GRM1885C1H180FA01J;
+C2, C5, C6, C8, C9, C11, C13, C18, C19, C20, C23, C27;12;Capacitor, ceramic;>= 16V;100n;0603;81-GRM188R71E104JA1J;
+C17;1;Capacitor, ceramic;>= 16V;220n;603;81-GRM188R71C224KA1J;
+C25, C26;2;Capacitor, ceramic;>= 25V;1u;0603;81-GRM188R61E105KA2J;
+C15;1;Capacitor, ceramic;>= 10V;3.3u;0603;81-GRM188R61A335KE5D;
+D1, D2;2;1N5819HW diode;;;SOD123;621-1N5819HW-F;Diodes Inc 1N5819HW-7-F
+IC1;1;LM1117-3.3V LDO Vreg;;3.3V;SO223;926-LM1117MPX3.3NOPB;National LM1117MPX3.3NOPB
+IC2, IC3;2;74hc595 SIPO shift register;;;SOIC16;595-CD74HC595M;Texas Instruments CD74HC595M
+IC4;1;DAC8564 quad 16-bit DAC;;;TSSOP16;595-DAC8564IDPW;TI DAC8564IDPW
+IC5;1;REF02 5V reference;;5V;SOIC8;595-REF02AU;TI REF02AU
+IC6;1;OPA4171 quad op-amp, low offset;;;SOIC14;595-OPA4171AIDR;TI OPA4171AIDR
+IC7, IC8, IC10, IC11;4;74AHCT1G125 buffer, single gate AHCT family;;;SOT23-5;595-SNAHCT1G125DBVR;TI SN74AHCT1G125DBVR
+IC9;1;MCP1703 LDO Vref;;3.3V;SOT23;579-MCP1703T-5002ECB;Microchip MCP1703T-5002E/CB
+Q1, Q2;2;NPN transistor MMBT3904;;;SOT23;863-MMBT3904LT1G;On Semi MMBT3904LT1G
+UC1;1;STM32F103CBT6 MCU;;;LQFP48;511-STM32F103CBT6;ST STM32F103CBT6
+PTH parts, top side;;;;;;;
+JP2;1;2x5 male header, 2.54mm pitch;;;;649-67996-410HLF;
+JP4;1;2x5, 1.27mm pitch male header;;;;649-221111-00010T4LF;
+SMT parts, bottom side;;;;;;;
+R35;1;Resistor, 1%;;220;0603;652-CR0603FX-2200ELF;
+R37;1;Resistor, 1%;;10k;0603;652-CR0603-FX-1002GLF;
+C24;1;Capacitor, ceramic;>= 16V;100n;0603;81-GRM188R71E104JA1J;
+C3, C12;2;Capacitor, electrolytic;>= 25V;4.7u;Panasonic A;;Nichicon UWX1E4R7MCL2
+C1, C4;2;Capacitor, electrolytic;>= 25V;22u;Panasonic C;667-EEE-FP1E220AR;EEE-FP1E220AR
+D3;1;1N4148 diode;;;SOD323;512-1N4148WS;
+Q3;1;8 MHz quartz;;;HC49;815-ABLS2-8-D4Y-T;Abracon ABLS2-8.000MHZ-D4Y-T
+OK1;1;6N137 Optocoupler;;;SMD-8;512-6N137SDM;Fairchild 6N137SDM  or Everlight 6N137S(TB)
+PTH parts, bottom side;;;;;;;
+DISP1;1;14 segments 2 characters LED module;Green, comm. cathode;;;604-PDC54-11GWA;1003349
+SW1;1;Encoder, 24 steps w/ clicks, w/ switch;;;;;
+SW2;1;Push-button, round cap, white;;;;611-D6R00F1LFS;C&K D6R00 F1 LFS
+SW3, SW4;2;Push-button, round cap, black;;;;611-D6R90LFS;C&K D6R90 F1 LFS
+J1, J2, J3, J4, J5, J6, J7, J8;8;Vertical jack connector;;;;;PJ-301-B
+LED1, LED2, LED3, LED4;4;LED 3mm, green, flat top;;;;604-WP424GDT;
+X1, X2;2;DIN Connector, vertical;;;;737-DJN-005-B;"Adam Tech DJN-005-B ; CUI-SD-50BV (Digikey PN CP-3150-ND)"
+PCB specifications;;;;;;;
+PCB;;"59.1 x 106.7 ; 2 layers";;;;;

@@ -50,13 +50,22 @@ def add_mouser_invoice(invoice):
         conn.close()
 
 
-def subtract_invoice(invoice, fieldnames):
+def subtract_invoice(invoice, fieldnames, invoice_type):
     with open(invoice, 'r', encoding='utf-8') as csvfile:
         conn = sqlite3.connect('inventory.sqlite')
         c = conn.cursor()
 
         array = [row for row in csv.DictReader(csvfile, delimiter=';', fieldnames=fieldnames)]
-        array = array[3:]
+
+        if invoice_type == "uBraids":
+            array = array[7:]
+        else:
+            array = array[3:]
+
+        # if invoice == "BOMs/uBraids.csv":
+        #     for i in array:
+        #         print(i)
+
         for row in array:
             if row['mouser_number']:
                 # print("deincrementing %s by %s" % (row['mouser_number'], row['qty']))
@@ -73,7 +82,7 @@ def subtract_invoice(invoice, fieldnames):
 
 def subtract_mutable_invoice(invoice):
     fieldnames = ["index", "qty", "description", "specs", "value", "package", "mouser_number", "references"]
-    return subtract_invoice(invoice, fieldnames)
+    return subtract_invoice(invoice, fieldnames, invoice_type="mutable")
 
 
 def subtract_synthrotek_invoice(invoice):
@@ -82,7 +91,14 @@ def subtract_synthrotek_invoice(invoice):
                   "RoHS Replacement", "PB Free", "Package Type", "Package Quantity", "Package Price", "Data Sheet URL",
                   "Product Image"]
 
-    return subtract_invoice(invoice, fieldnames)
+    return subtract_invoice(invoice, fieldnames, invoice_type="synthrotek")
+
+
+def subtract_other_invoice(invoice, invoice_type):
+    fieldnames = ["mouser_number", "Mfr. No", "Manufacturer", "Customer No", "description", "RoHS",
+                  "Lifecycle", "qty", "Price (EUR)", "Ext.: (EUR)"]
+    # fieldnames = ["index", "qty", "description", "specs", "value", "package", "mouser_number", "references"]
+    return subtract_invoice(invoice, fieldnames, invoice_type)
 
 
 def check_invoice(invoice, fieldnames, invoice_type):
@@ -190,11 +206,9 @@ def init_new_order():
 if __name__ == '__main__':
     init_db()
 
-    add_mouser_invoice('BOMs/mouser_order_1.csv')
-    add_mouser_invoice('BOMs/mouser_order_2.csv')
-    add_mouser_invoice('BOMs/mouser_order_3.csv')
-    add_mouser_invoice('BOMs/mouser_order_4.csv')
-    add_mouser_invoice('BOMs/mouser_order_5.csv')
+    for i in range(7):
+        print('BOMs/mouser_order_%s.csv' % (i + 1,))
+        add_mouser_invoice('BOMs/mouser_order_%s.csv' % (i + 1,))
 
     subtract_synthrotek_invoice('BOMs/AtariPunkConsole.csv')
     subtract_synthrotek_invoice('BOMs/DLY.csv')
@@ -231,6 +245,13 @@ if __name__ == '__main__':
     subtract_mutable_invoice('BOMs/Ripples.csv')
     subtract_mutable_invoice('BOMs/Peaks.csv')
     subtract_mutable_invoice('BOMs/Shades.csv')
+    subtract_mutable_invoice('BOMs/Peaks.csv')
+    subtract_mutable_invoice('BOMs/Veils.csv')
+    subtract_mutable_invoice('BOMs/Links.csv')
+
+    subtract_other_invoice('BOMs/uBraids.csv', 'uBraids')
+
+    subtract_mutable_invoice('BOMs/Clouds.csv')
 
     # Account for destroyed STM32F405RGT6 chip (failed Clouds build)  511-STM32F405RGT6
     conn = sqlite3.connect('inventory.sqlite')
@@ -248,7 +269,7 @@ if __name__ == '__main__':
 
     t = PrettyTable(['Part #', 'Description', 'You have', 'Needed qty', 'Difference', 'Order at least', 'Needed for'])
 
-    invoices = ('BOMs/Clouds.csv', 'BOMs/Peaks.csv', 'BOMs/Veils.csv', 'BOMs/Links.csv')
+    invoices = ('BOMs/Yarns.csv', 'BOMs/Rings.csv')
     for i in invoices:
         for row in check_mutable_invoice(i):
             t.add_row(row)
@@ -256,10 +277,10 @@ if __name__ == '__main__':
     # for row in check_synthrotek_invoice('BOMs/AtariPunkConsole.csv'):
     #     t.add_row(row)
 
-    for row in check_other_invoice('BOMs/uBraids.csv', 'ubraids'):
-        t.add_row(row)
+    # for row in check_other_invoice('BOMs/uBraids.csv', 'ubraids'):
+    #     t.add_row(row)
 
-    print(t.get_string(sortby="Part #"))
+    print(t.get_string(sortby="Difference"))
 
     """
 140-50S5-101J-RC not found, 4 needed for BOMs/MSTDualVCA.csv

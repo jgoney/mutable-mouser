@@ -1,0 +1,90 @@
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+SHOPPING BASKET;;;;;;;;;;
+This is not an invoice;;;;;;;;;;
+30-May-17 18:01:27;;;;;;;;;;
+;Mouser No;Mfr. No;Manufacturer;Customer No;Description ;RoHS;Lifecycle;Order Qty.;Price (EUR);Ext.: (EUR)
+1;511-STM32F103CBT6;STM32F103CBT6;STMicroelectronics;;ARM Microcontrollers - MCU 32BIT Cortex M3 128K MED Performance LN;RoHS Compliant;;2;6,06 €;12,12 €
+2;511-STM32F405RGT6;STM32F405RGT6;STMicroelectronics;;ARM Microcontrollers - MCU ARM M4 1024 FLASH 168 Mhz 192kB SRAM;RoHS Compliant;;5;9,98 €;49,90 €
+3;534-8906;8906;Keystone Electronics;;"LED Mounting Hardware UNIVERSAL MNT .24"" .255"" (6.5mm) DIA";RoHS Compliant;;4;0,257 €;1,03 €
+4;538-15-91-0060;15-91-0060;Molex;MICROBRAIDS;Headers & Wire Housings 6P SMT HEADER;RoHS Compliant;;1;0,50 €;0,50 €
+5;538-22-28-4060;22-28-4060;Molex;MICROBRAIDS;Headers & Wire Housings 6P VERT HEADER Sn;RoHS Compliant;;1;0,302 €;0,30 €
+6;538-87914-1026;87914-1026;Molex;MICROBRAIDS;Headers & Wire Housings 2.54mm DRSW Hdr TH 10Ckt;RoHS Compliant;;1;0,594 €;0,59 €
+7;556-ATMEGA328P-AU;ATMEGA328P-AU;Microchip;MICROBRAIDS;8-bit Microcontrollers - MCU 32KB In-system Flash 20MHz 1.8V-5.5V;RoHS Compliant;;1;1,95 €;1,95 €
+8;579-MCP3204-CI/ST;MCP3204-CI/ST;Microchip;MICROBRAIDS;Analog to Digital Converters - ADC 12-bit SPI 4 Chl;RoHS Compliant;;1;3,15 €;3,15 €
+9;579-MCP6004-I/ST;MCP6004-I/ST;Microchip;MICROBRAIDS;Operational Amplifiers - Op Amps Quad 1.8V 1MHz;RoHS Compliant;;1;0,453 €;0,45 €
+10;595-CD74HC4067SM96;CD74HC4067SM96;Texas Instruments;MICROBRAIDS;Multiplexer Switch ICs 16-Ch Analog;RoHS Compliant;;1;0,773 €;0,77 €
+11;595-DAC8551IADGKT;DAC8551IADGKT;Texas Instruments;MICROBRAIDS;Digital to Analog Converters - DAC 16B Ultralow Glitch Vltg Output DAC;RoHS Compliant;;1;5,76 €;5,76 €
+12;595-DAC8552IDGKT;DAC8552IDGKT;Texas Instruments;;Digital to Analog Converters - DAC 16-Bit Dual Channell DAC;RoHS Compliant;;1;7,79 €;7,79 €
+13;595-LM358APWR;LM358APWR;Texas Instruments;;Operational Amplifiers - Op Amps Dual Operational Amplifier;RoHS Compliant;;2;0,349 €;0,70 €
+14;595-LM4040B10IDBZR;LM4040B10IDBZR;Texas Instruments;MICROBRAIDS;Voltage References 10-V Prec Micropower Shunt .2% accuracy;RoHS Compliant;;1;1,66 €;1,66 €
+15;595-LM4040C10IDBZR;LM4040C10IDBZR;Texas Instruments;;Voltage References 10-V Prec Micropower Shunt 0.5% accuracy;RoHS Compliant;;3;0,802 €;2,41 €
+16;595-OPA1654AIPW;OPA1654AIPW;Texas Instruments;;Audio Amplifiers Low Noise & Dist FET Inp Aud Op Amp;RoHS Compliant;;4;2,58 €;10,32 €
+17;595-OPA2171AID;OPA2171AID;Texas Instruments;;Operational Amplifiers - Op Amps 36V,Low Pwr,RRO,Gen Purp Op Amp;RoHS Compliant;;2;1,88 €;3,76 €
+18;595-OPA4171AIPW;OPA4171AIPW;Texas Instruments;;Operational Amplifiers - Op Amps 36V,LO PWR,RRO,GEN PURP OP AMP;RoHS Compliant;;1;2,75 €;2,75 €
+19;595-SN74HC595PWR;SN74HC595PWR;Texas Instruments;MICROBRAIDS;Counter Shift Registers 8-Bit Shift Register;RoHS Compliant;;2;0,49 €;0,98 €
+20;595-TL072CPWR;TL072CPWR;Texas Instruments;MICROBRAIDS;Operational Amplifiers - Op Amps Dual Lw Nois JFET Op;RoHS Compliant;;3;0,556 €;1,67 €
+21;603-RC0402JR-0720ML;RC0402JR-0720ML;Yageo;;Thick Film Resistors - SMD 20M   OHM   5%;RoHS Compliant;;10;0,008 €;0,08 €
+22;603-RC0603FR-0710ML;RC0603FR-0710ML;Yageo;;Thick Film Resistors - SMD 10M OHM 1%;RoHS Compliant;;10;0,008 €;0,08 €
+23;604-WP7113SRSGW;WP7113SRSGW;Kingbright;;Standard LEDs - Through Hole T1 3/4 RED/GRN DIFF;RoHS Compliant;;10;0,273 €;2,73 €
+24;647-UWP1A100MCL;UWP1A100MCL1GB;Nichicon;MICROBRAIDS;Aluminium Electrolytic Capacitors - SMD 10volts 10uF 4x5.4 20%;RoHS Compliant;;10;0,209 €;2,09 €
+25;647-UWX1E4R7MCL2;UWX1E4R7MCL2GB;Nichicon;;Aluminium Electrolytic Capacitors - SMD 25volts 4.7uF 20%;RoHS Compliant;;10;0,108 €;1,08 €
+26;652-CR0603FX-1002GLF;CR0603-FX-1002GLF;Bourns;;Thick Film Resistors - SMD 10K 1% 1/10W;RoHS Compliant By Exemption;;10;0,024 €;0,24 €
+27;652-PTV09A-4225UB103;PTV09A-4225U-B103;Bourns;MICROBRAIDS;Potentiometers 10K LINEAR 20%;RoHS Compliant;;10;0,60 €;6,00 €
+28;667-EEE-FK1E220R;EEE-FK1E220R;Panasonic;MICROBRAIDS;Aluminium Electrolytic Capacitors - SMD 22uF 25V;RoHS Compliant;;10;0,186 €;1,86 €
+29;667-EEE-FP1E220AR;EEE-FP1E220AR;Panasonic;;Aluminium Electrolytic Capacitors - SMD 22uF 25V ELECT FP SMD;RoHS Compliant;;10;0,278 €;2,78 €
+30;667-EEE-FT1E220AR;EEE-FT1E220AR;Panasonic;;Aluminium Electrolytic Capacitors - SMD 22uF 25volts 4x5.8mm SMD;RoHS Compliant;;10;0,267 €;2,67 €
+31;667-ERJ-2RKF1003X;ERJ-2RKF1003X;Panasonic;;Thick Film Resistors - SMD 0402 100Kohms 1% AEC-Q200;RoHS Compliant By Exemption;;20;0,014 €;0,28 €
+32;667-ERJ-2RKF1201X;ERJ-2RKF1201X;Panasonic;;Thick Film Resistors - SMD 0402 1.2Kohms 1% AEC-Q200;RoHS Compliant By Exemption;;10;0,014 €;0,14 €
+33;667-ERJ-2RKF2402X;ERJ-2RKF2402X;Panasonic;;Thick Film Resistors - SMD 0402 24Kohms 1% AEC-Q200;RoHS Compliant By Exemption;;10;0,014 €;0,14 €
+34;667-ERJ-2RKF3601X;ERJ-2RKF3601X;Panasonic;;Thick Film Resistors - SMD 0402 3.6Kohms 1% AEC-Q200;RoHS Compliant By Exemption;;10;0,014 €;0,14 €
+35;667-ERJ-2RKF4992X;ERJ-2RKF4992X;Panasonic;;Thick Film Resistors - SMD 0402 49.9Kohms 1% AEC-Q200;RoHS Compliant By Exemption;;10;0,014 €;0,14 €
+36;667-ERJ-2RKF5100X;ERJ-2RKF5100X;Panasonic;;Thick Film Resistors - SMD 0402 510ohms 1% AEC-Q200;RoHS Compliant By Exemption;;20;0,014 €;0,28 €
+37;667-ERJ-2RKF5101X;ERJ-2RKF5101X;Panasonic;;Thick Film Resistors - SMD 0402 5.1Kohms 1% AEC-Q200;RoHS Compliant By Exemption;;20;0,014 €;0,28 €
+38;667-ERJ-2RKF5601X;ERJ-2RKF5601X;Panasonic;;Thick Film Resistors - SMD 0402 5.6Kohms 1% AEC-Q200;RoHS Compliant By Exemption;;10;0,014 €;0,14 €
+39;667-ERJ-3EKF1203V;ERJ-3EKF1203V;Panasonic;MICROBRAIDS;Thick Film Resistors - SMD 0603 120Kohms 1% AEC-Q200;RoHS Compliant By Exemption;;10;0,013 €;0,13 €
+40;667-ERJ-3EKF2492V;ERJ-3EKF2492V;Panasonic;MICROBRAIDS;Thick Film Resistors - SMD 0603 24.9Kohms 1% AEC-Q200;RoHS Compliant By Exemption;;20;0,013 €;0,26 €
+41;667-ERJ-3EKF4992V;ERJ-3EKF4992V;Panasonic;MICROBRAIDS;Thick Film Resistors - SMD 0603 49.9Kohms 1% AEC-Q200;RoHS Compliant By Exemption;;10;0,013 €;0,13 €
+42;667-ERJ-3EKF51R0V;ERJ-3EKF51R0V;Panasonic;;Thick Film Resistors - SMD 0603 51.0ohms 1% Tol AEC-Q200;RoHS Compliant By Exemption;;10;0,013 €;0,13 €
+43;667-ERJ-3EKF1001V;ERJ-3EKF1001V;Panasonic;MICROBRAIDS;Thick Film Resistors - SMD 0603 1Kohms 1% AEC-Q200;RoHS Compliant By Exemption;;10;0,013 €;0,13 €
+44;71-CRCW12064R70FKEA;CRCW12064R70FKEA;Vishay;MICROBRAIDS;Thick Film Resistors - SMD 1/4watt 4.7ohms 1%;RoHS Compliant By Exemption;;10;0,052 €;0,52 €
+45;771-HC2G04GW125;74HC2G04GW,125;Nexperia;MICROBRAIDS;Inverters 5V 2-INPUT SINGLE;RoHS Compliant;;1;0,358 €;0,36 €
+46;81-CSTCE16M0V53-R0;CSTCE16M0V53-R0;Murata;MICROBRAIDS;Resonators 16MHZ .5% CHIP;RoHS Compliant;;2;0,434 €;0,87 €
+47;81-GRM1555C1H561JA1D;GRM1555C1H561JA01D;Murata;;Multilayer Ceramic Capacitors MLCC - SMD/SMT 560pF 50Volts 5%;RoHS Compliant;;20;0,017 €;0,34 €
+48;81-GRM155R61E104KA7D;GRM155R61E104KA87D;Murata;;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.10uF 25volt X5R +/-10%;RoHS Compliant;;20;0,011 €;0,22 €
+49;81-GRM185C1H100JA01J;GRM1885C1H100JA01J;Murata;;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0603 10pF 50volts C0G 5%;RoHS Compliant;;10;0,031 €;0,31 €
+50;81-GRM1885C1H101GA1J;GRM1885C1H101GA01J;Murata;MICROBRAIDS;Multilayer Ceramic Capacitors MLCC - SMD/SMT 100pF 50Volts C0G 2%;RoHS Compliant;;10;0,049 €;0,49 €
+51;81-GRM1885C1H102FA1D;GRM1885C1H102FA01D;Murata;MICROBRAIDS;Multilayer Ceramic Capacitors MLCC - SMD/SMT 1000PF 50V 1%;RoHS Compliant;;10;0,045 €;0,45 €
+52;810-C1005X5R1E474K;C1005X5R1E474K050BB;TDK;;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402 0.47uF 25volts X5R 10%;RoHS Compliant;NRND;10;0,085 €;0,85 €
+53;863-MC7805BDTRKG;MC7805BDTRKG;ON Semiconductor;MICROBRAIDS;Linear Voltage Regulators 5V 1A Positive;RoHS Compliant;;1;0,594 €;0,59 €
+54;963-EMK107BJ104KAHT;EMK107BJ104KAHT;Taiyo Yuden;MICROBRAIDS;Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1uF 16V X5R +/-10% 0603 AEC-Q200;RoHS Compliant;;20;0,03 €;0,60 €
+55;612-LP4OA1PBCTR;LP4OA1PBCTR;E-Switch;;Illuminated Pushbutton Switches DPDT On-Mom LED, Red;RoHS Compliant;;2;3,18 €;6,36 €
+56;710-885012005059;885012005059;Wurth Electronics;;Multilayer Ceramic Capacitors MLCC - SMD/SMT WCAP-CSGP 47pF 0402 5% 50V MLCC;RoHS Compliant;;20;0,07 €;1,40 €
+57;652-PEC11R-4215F-S24;PEC11R-4215F-S0024;Bourns;;Encoders 15mm SHAFT w/SWITCH;RoHS Compliant;;1;1,54 €;1,54 €
+58;603-RC0603FR-07330RL;RC0603FR-07330RL;Yageo;;Thick Film Resistors - SMD 330 OHM 1%;RoHS Compliant;;10;0,009 €;0,09 €
+59;71-CRCW0402-5.1K-E3;CRCW04025K10FKED;Vishay;;Thick Film Resistors - SMD 1/16watt 5.1Kohms 1%;RoHS Compliant By Exemption;;20;0,042 €;0,84 €
+60;71-RCG040249K9FKED;RCG040249K9FKED;Vishay;;Thick Film Resistors - SMD .063watt 49.9kohms 1% 0402 100ppm;RoHS Compliant;;20;0,094 €;1,88 €
+;;;;;;;;;;
+;;;;;;;;;;
+"By submitting your order you agree
+
+to these terms and conditions.";;;;;;;;;Merchandise Total:;148,20 €
+Prices are reflected at the date and time shown.;;;;;;;;;Delivery Charge:;0,00 €
+;;;;;;;;;Back-order Delivery:;0,00 €
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
+;;;;;;;;;;
