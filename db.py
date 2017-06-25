@@ -269,7 +269,8 @@ if __name__ == '__main__':
 
     t = PrettyTable(['Part #', 'Description', 'You have', 'Needed qty', 'Difference', 'Order at least', 'Needed for'])
 
-    invoices = ('BOMs/Yarns.csv', 'BOMs/Rings.csv')
+    #invoices = ('BOMs/Yarns.csv', 'BOMs/Rings.csv')
+    invoices = ('BOMs/Yarns.csv',)
     for i in invoices:
         for row in check_mutable_invoice(i):
             t.add_row(row)
