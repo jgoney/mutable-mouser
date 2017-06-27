@@ -206,7 +206,7 @@ def init_new_order():
 if __name__ == '__main__':
     init_db()
 
-    for i in range(7):
+    for i in range(8):
         print('BOMs/mouser_order_%s.csv' % (i + 1,))
         add_mouser_invoice('BOMs/mouser_order_%s.csv' % (i + 1,))
 
@@ -252,6 +252,8 @@ if __name__ == '__main__':
     subtract_other_invoice('BOMs/uBraids.csv', 'uBraids')
 
     subtract_mutable_invoice('BOMs/Clouds.csv')
+    subtract_mutable_invoice('BOMs/Yarns.csv')
+
 
     # Account for destroyed STM32F405RGT6 chip (failed Clouds build)  511-STM32F405RGT6
     conn = sqlite3.connect('inventory.sqlite')
@@ -269,8 +271,7 @@ if __name__ == '__main__':
 
     t = PrettyTable(['Part #', 'Description', 'You have', 'Needed qty', 'Difference', 'Order at least', 'Needed for'])
 
-    #invoices = ('BOMs/Yarns.csv', 'BOMs/Rings.csv')
-    invoices = ('BOMs/Yarns.csv',)
+    invoices = ('BOMs/Rings.csv',)
     for i in invoices:
         for row in check_mutable_invoice(i):
             t.add_row(row)
@@ -283,13 +284,3 @@ if __name__ == '__main__':
 
     print(t.get_string(sortby="Difference"))
 
-    """
-140-50S5-101J-RC not found, 4 needed for BOMs/MSTDualVCA.csv
-291-2.2K-RC not found, 2 needed for BOMs/MSTDualVCA.csv
-291-39K-RC not found, 2 needed for BOMs/MSTDualVCA.csv
-291-5.1K-RC not found, 2 needed for BOMs/MSTDualVCA.csv
-291-7.5K-RC not found, 1 needed for BOMs/MSTDualVCA.csv
-595-TL074CN not found, 1 needed for BOMs/MSTDualVCA.csv
-649-DILB18P223TLF not found, 1 needed for BOMs/MSTDualVCA.csv
-871-B41827A9106M000 not found, 2 needed for BOMs/MSTDualVCA.csv
-    """
